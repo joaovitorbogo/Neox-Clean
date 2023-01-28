@@ -1,0 +1,18 @@
+{
+   "browser_action": {
+
+   },
+   "content_scripts": [ {
+      "js": [ "jquery-2.2.4.min.js", "background_script.js" ],
+      "matches": [ "*://neoxscans.net/*" ]
+   } ],
+   "description": "Plugin pra ocultar algumas informações que não me são úteis e só estão ocupando espaço na tela",
+   "icons": {
+      "128": "icon.png"
+   },
+   "manifest_version": 2,
+   "name": "Neox Clean",
+   "permissions": [ "*://neoxscans.net/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
